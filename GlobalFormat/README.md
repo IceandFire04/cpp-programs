@@ -4,7 +4,7 @@ and more in most places.
 
 ## How to use it
 > [!IMPORTANT]
-> GlobalFormat uses standard C++ strings for its main function `formatText`, but if you really need to you can modify the header file yourself to fit character arrays or custom string implementations.
+> GlobalFormat uses standard C++ strings for the majority of it's functions, but if you really need to you can modify the header file yourself to fit character arrays or custom string implementations.
 
 All you really need to do is put a string in `formatText` and tell it what type of formatting you'd like. In the header file, there is an enum with all the available formatting types.
 You can also do custom colors by setting the formatting type to `RGBCOLOR` or `BG_RGBCOLOR` and adding a couple extra parameters to the function.
