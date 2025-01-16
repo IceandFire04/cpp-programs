@@ -1,2 +1,2 @@
 # The Suburban Almanac
-i am at school rn and have found my self a severe lack of time. pardon my dust
+Recreation of the almanac from **Plants vs. Zombies**! I'll add instructions and adding your own stuff here later, but I have exams :p
