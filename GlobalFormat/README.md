@@ -1,6 +1,6 @@
 # GlobalFormat
 > [!IMPORTANT]
-> This is being rewritten soon because I just found out haw ANSI codes _actually_ work. This only really works on Online GDB and Replit right now. My bad!
+> This is being rewritten soon because I just found out how ANSI codes _actually_ work, mainly revolving around multiple formattings. I'll fix this soon!
 
 GlobalFormat is a custom header file I made to apply those cool colors to the output in my programs, but I thought it was pretty versatile so I put it here so other people could use it because they might find it useful. It allows you to format output with bolding, italics, colors (including your own) and more on most standard outputs.
 
