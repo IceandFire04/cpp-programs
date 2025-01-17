@@ -71,19 +71,19 @@ enum FormattingTypes {
 };
 
 // for readability and convienence
-const string REMOVE_FORMATTING = "\e[0m";
+const string REMOVE_FORMATTING = "\x1b[0m";
 
 // just adds the set of characters for formatting styles
 string formatting(int type)
 {
 	// you'll see ""\e[ + type + m" a lot; thats just tells the console to apply a formattingType
-	return "\e[" + to_string(type) + "m";
+	return "\x1b[" + to_string(type) + "m";
 }
 
 // same as above but adds the extra args for custom colors
 string formattingRGB(int type, Color color)
 {
-	return "\e[" + to_string(type) + ";2;" + to_string(color.r) + ";" +
+	return "\x1b[" + to_string(type) + ";2;" + to_string(color.r) + ";" +
 	       to_string(color.g) + ";" + to_string(color.b) + "m";
 }
 
